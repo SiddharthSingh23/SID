@@ -1,0 +1,49 @@
+/* Cursor Design Section */
+.cursor-blend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    color: rgb(230, 219, 223);
+  }
+  .title {
+    display:inline-flex;
+  }
+  .title {
+    font-size: 10rem;
+    opacity: 1;
+    transition: opacity 2s;
+  }
+  .outline {
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+    stroke: 2px black;
+    text-shadow: none;
+  }
+  .hide{
+    opacity: 0 !important;
+  }
+  
+  
+  /* Cursor Design */
+  
+  .cursor {
+    background-color: rgb(230, 219, 223);
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    z-index: 99;
+  }
+  
+  
+  /* Remove Cursor For Small Screens */
+  @media only screen and (max-width: 700px) {
+    .cursor {
+      display: none;
+    }
+  }

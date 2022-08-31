@@ -1,0 +1,41 @@
+/* Navigation */
+nav {
+    width: 100vw;
+    position:fixed;
+    top: 0;
+    left: 0;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    z-index: 1;
+    mix-blend-mode: difference;
+    padding: 10px;
+    font-family: 'Share Tech Mono', monospace;
+    color: aliceblue;
+  }
+  
+  
+  /* Logo */
+  .nav1 {
+    display:flex;
+    align-items:center;
+  }
+  .nav1 img {
+    height:44px;
+    margin-right: 10px;
+  }
+   
+  
+  /* Nav2 */
+  .nav2{
+    display:flex;
+    align-items:center;
+    margin-right:40px;
+  }
+  .nav2 h4{
+    padding-left:5px;
+    padding-right:5px;
+    margin-left:5px;
+    margin-right:5px;
+  }
